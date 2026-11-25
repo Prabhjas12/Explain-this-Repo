@@ -1,0 +1,72 @@
+{
+  "repo_id": "ucsd__campus-mobile",
+  "name": "UCSD/campus-mobile",
+  "kind": "github",
+  "source": "https://github.com/UCSD/campus-mobile",
+  "web_url": "https://github.com/UCSD/campus-mobile",
+  "branch": null,
+  "local_path": null,
+  "root": "/Users/prabhjassg02/Desktop/explain-this-repo/data/repos/ucsd__campus-mobile",
+  "commit": "d3f20639de070222edd7ea3ee1bd8a39487e0c60",
+  "indexed_at": "2026-11-25T01:39:17+00:00",
+  "files": 259,
+  "lines": 27933,
+  "chunks": 962,
+  "skipped": {
+    "unknown type": 24,
+    "binary or data": 167,
+    "lockfile or generated": 5
+  },
+  "languages": [
+    {
+      "language": "dart",
+      "lines": 23288,
+      "percent": 88.9
+    },
+    {
+      "language": "bash",
+      "lines": 1440,
+      "percent": 5.5
+    },
+    {
+      "language": "python",
+      "lines": 811,
+      "percent": 3.1
+    },
+    {
+      "language": "javascript",
+      "lines": 471,
+      "percent": 1.8
+    },
+    {
+      "language": "groovy",
+      "lines": 133,
+      "percent": 0.5
+    },
+    {
+      "language": "swift",
+      "lines": 33,
+      "percent": 0.1
+    },
+    {
+      "language": "kotlin",
+      "lines": 20,
+      "percent": 0.1
+    },
+    {
+      "language": "c",
+      "lines": 1,
+      "percent": 0.0
+    }
+  ],
+  "embedding": "fastembed:BAAI/bge-small-en-v1.5",
+  "dim": 384,
+  "reused_vectors": 0,
+  "timings": {
+    "clone_s": 1.374,
+    "scan_s": 0.021,
+    "chunk_s": 0.046,
+    "embed_s": 66.845,
+    "total_s": 68.288
+  }
+}

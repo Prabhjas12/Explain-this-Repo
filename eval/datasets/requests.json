@@ -1,0 +1,30 @@
+{
+  "repo": "https://github.com/psf/requests",
+  "note": "Answers verified against psf/requests main (Nov 2026). A question counts as answered when a retrieved chunk comes from one of the expected files.",
+  "questions": [
+    {"q": "How does a session follow redirects?", "expected": ["src/requests/sessions.py"], "type": "code"},
+    {"q": "When is the Authorization header dropped during a redirect?", "expected": ["src/requests/sessions.py"], "type": "code"},
+    {"q": "How do I configure automatic retries for failed connections?", "expected": ["src/requests/adapters.py", "docs/user/advanced.rst"], "type": "code"},
+    {"q": "How does it decide which proxy to use for a URL?", "expected": ["src/requests/utils.py", "src/requests/sessions.py", "src/requests/adapters.py"], "type": "code"},
+    {"q": "How is the digest authentication header computed?", "expected": ["src/requests/auth.py"], "type": "code"},
+    {"q": "How is the basic auth header built from a username and password?", "expected": ["src/requests/auth.py"], "type": "code"},
+    {"q": "How does response.json() decode the body?", "expected": ["src/requests/models.py"], "type": "code"},
+    {"q": "How is a response body streamed in chunks?", "expected": ["src/requests/models.py"], "type": "code"},
+    {"q": "How is the text encoding of a response guessed?", "expected": ["src/requests/models.py", "src/requests/utils.py"], "type": "code"},
+    {"q": "How are query parameters encoded into the URL?", "expected": ["src/requests/models.py"], "type": "code"},
+    {"q": "How are files encoded for a multipart upload?", "expected": ["src/requests/models.py"], "type": "code"},
+    {"q": "How are cookies from a response stored and sent back later?", "expected": ["src/requests/cookies.py", "src/requests/sessions.py"], "type": "code"},
+    {"q": "Where do top-level functions like requests.get come from?", "expected": ["src/requests/api.py"], "type": "code"},
+    {"q": "How is a timeout passed down to the connection?", "expected": ["src/requests/adapters.py"], "type": "code"},
+    {"q": "How is the SSL certificate bundle chosen for verification?", "expected": ["src/requests/adapters.py", "src/requests/certs.py", "src/requests/utils.py"], "type": "code"},
+    {"q": "How are environment settings like REQUESTS_CA_BUNDLE merged into a request?", "expected": ["src/requests/sessions.py"], "type": "code"},
+    {"q": "What exceptions can be raised and how are they organized?", "expected": ["src/requests/exceptions.py"], "type": "code"},
+    {"q": "How does raise_for_status decide that a response is an error?", "expected": ["src/requests/models.py"], "type": "code"},
+    {"q": "How are response hooks called?", "expected": ["src/requests/hooks.py"], "type": "code"},
+    {"q": "How are headers stored so lookups ignore case?", "expected": ["src/requests/structures.py"], "type": "code"},
+    {"q": "How are connection pools managed for each host?", "expected": ["src/requests/adapters.py"], "type": "code"},
+    {"q": "How is a .netrc file used for authentication?", "expected": ["src/requests/utils.py", "src/requests/sessions.py"], "type": "code"},
+    {"q": "How are per-request settings merged with session defaults?", "expected": ["src/requests/sessions.py"], "type": "code"},
+    {"q": "How do I install requests?", "expected": ["docs/user/install.rst", "README.md"], "type": "docs"}
+  ]
+}

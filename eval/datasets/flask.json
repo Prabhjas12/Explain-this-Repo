@@ -1,0 +1,30 @@
+{
+  "repo": "https://github.com/pallets/flask",
+  "note": "Answers verified against pallets/flask at commit 49943b5 (Nov 2026). A question counts as answered when a retrieved chunk comes from one of the expected files; entries ending in / match a whole folder.",
+  "questions": [
+    {"q": "How does Flask match an incoming URL to the right view function?", "expected": ["src/flask/app.py", "src/flask/sansio/app.py"], "type": "code"},
+    {"q": "How does the route decorator register a URL rule?", "expected": ["src/flask/sansio/scaffold.py", "src/flask/sansio/app.py"], "type": "code"},
+    {"q": "How does a blueprint get attached to an application?", "expected": ["src/flask/sansio/blueprints.py", "src/flask/sansio/app.py"], "type": "code"},
+    {"q": "Where is the request context pushed and popped?", "expected": ["src/flask/ctx.py"], "type": "code"},
+    {"q": "How is the session cookie signed so users can't tamper with it?", "expected": ["src/flask/sessions.py"], "type": "code"},
+    {"q": "How are config values loaded from a Python file or an environment variable?", "expected": ["src/flask/config.py"], "type": "code"},
+    {"q": "Which variables are automatically available inside templates?", "expected": ["src/flask/templating.py"], "type": "code"},
+    {"q": "How does jsonify turn a dict into a JSON response?", "expected": ["src/flask/json/__init__.py", "src/flask/json/provider.py"], "type": "code"},
+    {"q": "How does the flask command line tool find the application to run?", "expected": ["src/flask/cli.py"], "type": "code"},
+    {"q": "How is the right error handler chosen for an exception?", "expected": ["src/flask/sansio/app.py", "src/flask/app.py"], "type": "code"},
+    {"q": "What happens when a view returns a tuple instead of a response object?", "expected": ["src/flask/app.py"], "type": "code"},
+    {"q": "How do class-based views send GET and POST to different methods?", "expected": ["src/flask/views.py"], "type": "code"},
+    {"q": "How can tests send requests to the app without running a server?", "expected": ["src/flask/testing.py"], "type": "code"},
+    {"q": "Where are signals like request_started defined?", "expected": ["src/flask/signals.py"], "type": "code"},
+    {"q": "How does url_for build a URL from an endpoint name?", "expected": ["src/flask/helpers.py", "src/flask/app.py"], "type": "code"},
+    {"q": "How does send_file serve a file from disk?", "expected": ["src/flask/helpers.py"], "type": "code"},
+    {"q": "How are flashed messages stored until the next request?", "expected": ["src/flask/helpers.py"], "type": "code"},
+    {"q": "How are before_request and after_request functions run?", "expected": ["src/flask/app.py", "src/flask/sansio/scaffold.py"], "type": "code"},
+    {"q": "What is the g object and how is it scoped?", "expected": ["src/flask/ctx.py", "src/flask/globals.py"], "type": "code"},
+    {"q": "What does app.run do to start the development server?", "expected": ["src/flask/app.py"], "type": "code"},
+    {"q": "How are async view functions supported?", "expected": ["src/flask/app.py", "docs/async-await.rst"], "type": "code"},
+    {"q": "How is the app's logger set up?", "expected": ["src/flask/logging.py"], "type": "code"},
+    {"q": "How do I install Flask?", "expected": ["docs/installation.rst", "README.md"], "type": "docs"},
+    {"q": "How should I deploy a Flask app to production?", "expected": ["docs/deploying/", "docs/tutorial/deploy.rst"], "type": "docs"}
+  ]
+}
